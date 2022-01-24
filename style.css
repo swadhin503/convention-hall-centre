@@ -6,3 +6,7 @@ body{
 .header-font{
     color: white;
 }
+.footer-bg{
+    background-color:black;
+    color: white;
+}
