@@ -170,7 +170,7 @@
    
     <!-- Header End -->
     <main>
-      <section class="container position-relative">
+      <section class="container">
         <h2 class="text-center">Our Packages</h2>
         <div class="row my-5">
           <div class="card col-lg-3 col-md-6 col-sm-12 border-0">
@@ -254,7 +254,16 @@
             ></span>
           </div>
 
-          <div class="card col-lg-3 col-md-6 col-sm-12 border-0">
+          <div class="position-relative card col-lg-3 col-md-6 col-sm-12 border-0">
+            <div class="toast show align-items-center position-absolute top-100 end-0 toast-bg text-white ms-auto" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="d-flex">
+                <div class="toast-body">
+                Hello Sir! Please, choose a plan.
+               </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+            </div>
+
             <div class="card-body">
               <h2 class="card-title">$1200</h2>
               <h3>Corporate Event</h3>
@@ -278,14 +287,7 @@
             </div>
           </div>
         </div>
-        <div class="toast show align-items-center position-absolute top-50 start-100 translate-middle bg-primary text-white" role="alert" aria-live="assertive" aria-atomic="true">
-          <div class="d-flex">
-            <div class="toast-body">
-            Hello, world! This is a toast message.
-           </div>
-            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-          </div>
-        </div>
+
       </section>
 
       <!-- Accordion Part-->
@@ -425,7 +427,7 @@
           <div
             class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center"
           >
-            <img src="./images/people.png" alt="" />
+            <img  class="img-fluid" src="./images/people.png" alt="" />
           </div>
         </div>
         
@@ -434,7 +436,7 @@
     
     <!-- Main Part Ended -->
 
-    <div class="row mt-5 footer-bg">
+    <div class="row mt-5 footer-bg w-100">
       <div class="col-lg-12 col-md-12 col-sm-12 col-12">
         <footer class="d-flex justify-content-around">
           <small class="d-flex align-items-center"
